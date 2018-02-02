@@ -33,11 +33,11 @@ public class LoginPageTests extends DriverBase {
         */
     }
 
-    /*
+
     @Test(groups = "Test")
     public void LoginPageTests_02() throws Exception {
         Log4Test.info("ASTA ESTE TESTUL NOSTRU RULAT PERIN REMOTE");
 
     }
-    */
+
 }
