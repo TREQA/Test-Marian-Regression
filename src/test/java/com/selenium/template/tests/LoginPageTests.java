@@ -10,6 +10,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
+
+/*
+
 public class LoginPageTests extends DriverBase {
 
     @Test(groups = "Test")
@@ -34,17 +37,14 @@ public class LoginPageTests extends DriverBase {
         addTourPage.setTourName();
         addTourPage.enableChildOption();
         addTourPage.enableInfantOption();
-        */
+
     }
 
-
-    /*
     @Test(groups = "Test")
     public void LoginPageTests_02() throws Exception {
         Log4Test.info("ASTA ESTE TESTUL NOSTRU RULAT PERIN REMOTE");
 
     }
-
-    */
-
 }
+
+*/
