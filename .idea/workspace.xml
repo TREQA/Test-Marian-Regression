@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a617e4e-14be-423d-858b-c690bd4491cd" name="Default" comment="" />
+    <list default="true" id="4a617e4e-14be-423d-858b-c690bd4491cd" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/template/config/DriverType.java" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/template/config/DriverType.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/template/tests/LoginPageTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/template/tests/LoginPageTests.java" />
+    </list>
     <ignored path="SeleniumTemplate.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,11 +29,41 @@
       <file leaf-file-name="LoginPageTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/template/tests/LoginPageTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" column="58" lean-forward="true" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+            <state relative-caret-position="717">
+              <caret line="37" column="68" lean-forward="false" selection-start-line="37" selection-start-column="68" selection-end-line="37" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-525">
+              <caret line="44" column="25" lean-forward="false" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DriverType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/template/config/DriverType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="50" column="6" lean-forward="true" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestTheTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/template/tests/TestTheTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,7 +107,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/selenium/template/listeners/ScreenshotListener.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/selenium/template/config/DriverFactory.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/selenium/template/config/DriverType.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/com/selenium/template/pageObjects/frontend/FE_ExamplePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/selenium/template/pageObjects/backend/BE_ExamplePage.java" />
@@ -86,6 +119,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/selenium/template/automationFramework/CommonTasks.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/selenium/template/pageObjects/backend/DashBoardPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/selenium/template/pageObjects/backend/AddTourPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/selenium/template/config/DriverType.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/selenium/template/tests/LoginPageTests.java" />
       </list>
     </option>
@@ -116,8 +150,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,8 +235,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1149,14 +1183,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/template/config/DriverType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="3" selection-end-line="50" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/template/pageObjects/backend/BE_ExamplePage.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/template/automationFramework/CommonTask.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/template/automationFramework/Log4Test.java">
@@ -1261,8 +1287,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="14" />
+        <state relative-caret-position="-525">
+          <caret line="44" column="25" lean-forward="false" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/template/config/DriverType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="50" column="6" lean-forward="true" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1277,8 +1311,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/template/tests/LoginPageTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="58" lean-forward="true" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+        <state relative-caret-position="717">
+          <caret line="37" column="68" lean-forward="false" selection-start-line="37" selection-start-column="68" selection-end-line="37" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

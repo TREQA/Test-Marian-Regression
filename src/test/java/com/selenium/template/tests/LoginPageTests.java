@@ -1,6 +1,7 @@
 package com.selenium.template.tests;
 
 import com.selenium.template.DriverBase;
+import com.selenium.template.automationFramework.Log4Test;
 import com.selenium.template.automationFramework.TestData;
 import com.selenium.template.pageObjects.backend.AddTourPage;
 import com.selenium.template.pageObjects.backend.DashBoardPage;
@@ -30,6 +31,11 @@ public class LoginPageTests extends DriverBase {
         addTourPage.enableChildOption();
         addTourPage.enableInfantOption();
         */
+    }
+
+    @Test(groups = "Test")
+    public void LoginPageTests_02() throws Exception {
+        Log4Test.info("ASTA ESTE TESTUL NOSTRU RULAT PERIN REMOTE");
 
     }
 }

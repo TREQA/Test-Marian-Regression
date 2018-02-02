@@ -38,7 +38,7 @@ public enum DriverType implements DriverSetup {
             return new ChromeDriver(capabilities);
         }
     },
-   /* FIREFOX {
+    FIREFOX {
         public MutableCapabilities getDesiredCapabilities(Proxy proxySettings) {
             FirefoxOptions firefoxOptions = new FirefoxOptions();
             firefoxOptions.addPreference("marionette", true);
@@ -48,7 +48,7 @@ public enum DriverType implements DriverSetup {
         public RemoteWebDriver getWebDriverObject(MutableCapabilities capabilities) {
             return new FirefoxDriver(capabilities);
         }
-    },*/
+    },
     IE {
         public MutableCapabilities getDesiredCapabilities(Proxy proxySettings) {
             DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
