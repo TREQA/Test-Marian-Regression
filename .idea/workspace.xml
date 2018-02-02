@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4a617e4e-14be-423d-858b-c690bd4491cd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/template/tests/LoginPageTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/template/tests/LoginPageTests.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/template/tests/TestTheTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/template/tests/TestTheTest.java" />
     </list>
     <ignored path="SeleniumTemplate.iws" />
@@ -25,21 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TestTheTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/template/tests/TestTheTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginPageTests.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginPageTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/template/tests/LoginPageTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="46" />
+            <state relative-caret-position="679">
+              <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,8 +92,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/selenium/template/pageObjects/backend/AddTourPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/selenium/template/config/DriverType.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/selenium/template/DriverBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/selenium/template/tests/LoginPageTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/selenium/template/tests/TestTheTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/selenium/template/tests/LoginPageTests.java" />
       </list>
     </option>
   </component>
@@ -873,7 +864,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517588924785</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="clean target">
+      <created>1517589016162</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1517589016162</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1278,21 +1276,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/template/tests/LoginPageTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/template/tests/TestTheTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/template/tests/LoginPageTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -11,19 +11,16 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 
-/*
+
 
 public class LoginPageTests extends DriverBase {
 
     @Test(groups = "Test")
     public void LoginPageTests_01() throws Exception {
 
-        System.setProperty("webdriver.chrome.driver","C:\\chromedriver\\chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
-
         setup("LoginPage_01", TestData.BACKEND_URL);
 
-        //WebDriver driver = getDriver();
+        WebDriver driver = getDriver();
 
         //Page Objects
         LoginPage loginPage = new LoginPage(driver);
@@ -32,11 +29,11 @@ public class LoginPageTests extends DriverBase {
 
         loginPage.loginTest();
 
-        /*dashBoardPage.goToAddTour();
-        addTourPage.setStatus("Disabled");
-        addTourPage.setTourName();
-        addTourPage.enableChildOption();
-        addTourPage.enableInfantOption();
+        //dashBoardPage.goToAddTour();
+        //addTourPage.setStatus("Disabled");
+        //addTourPage.setTourName();
+        //addTourPage.enableChildOption();
+        //addTourPage.enableInfantOption();
 
     }
 
@@ -47,4 +44,4 @@ public class LoginPageTests extends DriverBase {
     }
 }
 
-*/
+
