@@ -6,6 +6,7 @@ import com.selenium.template.automationFramework.Log4Test;
 import com.selenium.template.config.DriverFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Listeners;
 
@@ -39,7 +40,8 @@ public class DriverBase {
         getDriver().manage().deleteAllCookies();
     }
 
-    //@AfterSuite(alwaysRun = true)
+    //Comenteaza numai cand rulezi pe local pt debug / cand rulezi suita prin jenkins decomenteaza ca altfel o sa ai 1000 de browsere deschise
+    @AfterSuite(alwaysRun = true)
     public static void closeDriverObjects() {
         for (DriverFactory driverFactory : webDriverThreadPool) {
             driverFactory.quitDriver();
