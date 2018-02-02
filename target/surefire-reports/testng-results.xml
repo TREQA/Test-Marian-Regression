@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[INFO: "Test ID: LoginPage_01"]]>
+    </line>
+    <line>
+      <![CDATA[INFO: "Navigating to: https://www.phptravels.net/admin"]]>
+    </line>
+    <line>
+      <![CDATA[INFO: "- sending keys : 'admin@phptravels.com' : to emailField"]]>
+    </line>
+    <line>
+      <![CDATA[INFO: "- sending keys : 'demoadmin' : to passwordField"]]>
+    </line>
+    <line>
+      <![CDATA[INFO: "- waiting for element : loginButton : to be clickable"]]>
+    </line>
+    <line>
+      <![CDATA[INFO: "- moving to element : loginButton"]]>
+    </line>
+    <line>
+      <![CDATA[INFO: "- clicking element : loginButton"]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2018-02-02T14:43:02Z" name="Surefire suite" finished-at="2018-02-02T14:43:09Z" duration-ms="6736">
+    <groups>
+      <group name="Test">
+        <method signature="LoginPageTests.LoginPageTests_01()[pri:0, instance:com.selenium.template.tests.LoginPageTests@479d31f3]" name="LoginPageTests_01" class="com.selenium.template.tests.LoginPageTests"/>
+        <method signature="TestTheTest.Test_01()[pri:0, instance:com.selenium.template.tests.TestTheTest@123ef382]" name="Test_01" class="com.selenium.template.tests.TestTheTest"/>
+      </group> <!-- Test -->
+    </groups>
+    <test started-at="2018-02-02T14:43:02Z" name="Surefire test" finished-at="2018-02-02T14:43:09Z" duration-ms="6736">
+      <class name="com.selenium.template.tests.LoginPageTests">
+        <test-method is-config="true" signature="instantiateDriverObject()[pri:0, instance:com.selenium.template.tests.LoginPageTests@479d31f3]" started-at="2018-02-02T16:43:02Z" name="instantiateDriverObject" finished-at="2018-02-02T16:43:02Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instantiateDriverObject -->
+        <test-method signature="LoginPageTests_01()[pri:0, instance:com.selenium.template.tests.LoginPageTests@479d31f3]" started-at="2018-02-02T16:43:03Z" name="LoginPageTests_01" finished-at="2018-02-02T16:43:08Z" duration-ms="5798" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[INFO: "Test ID: LoginPage_01"]]>
+            </line>
+            <line>
+              <![CDATA[INFO: "Navigating to: https://www.phptravels.net/admin"]]>
+            </line>
+            <line>
+              <![CDATA[INFO: "- sending keys : 'admin@phptravels.com' : to emailField"]]>
+            </line>
+            <line>
+              <![CDATA[INFO: "- sending keys : 'demoadmin' : to passwordField"]]>
+            </line>
+            <line>
+              <![CDATA[INFO: "- waiting for element : loginButton : to be clickable"]]>
+            </line>
+            <line>
+              <![CDATA[INFO: "- moving to element : loginButton"]]>
+            </line>
+            <line>
+              <![CDATA[INFO: "- clicking element : loginButton"]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginPageTests_01 -->
+        <test-method is-config="true" signature="clearCookies()[pri:0, instance:com.selenium.template.tests.LoginPageTests@479d31f3]" started-at="2018-02-02T16:43:08Z" name="clearCookies" finished-at="2018-02-02T16:43:08Z" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+      </class> <!-- com.selenium.template.tests.LoginPageTests -->
+      <class name="com.selenium.template.tests.TestTheTest">
+        <test-method signature="Test_01()[pri:0, instance:com.selenium.template.tests.TestTheTest@123ef382]" started-at="2018-02-02T16:43:08Z" name="Test_01" finished-at="2018-02-02T16:43:09Z" duration-ms="850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_01 -->
+        <test-method is-config="true" signature="clearCookies()[pri:0, instance:com.selenium.template.tests.TestTheTest@123ef382]" started-at="2018-02-02T16:43:09Z" name="clearCookies" finished-at="2018-02-02T16:43:09Z" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+      </class> <!-- com.selenium.template.tests.TestTheTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
